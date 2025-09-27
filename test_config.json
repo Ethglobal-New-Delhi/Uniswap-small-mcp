@@ -1,0 +1,16 @@
+{
+  "testWallet": {
+    "privateKey": "0xa6befcc3564adf3659d0f7e6f871d374b79e29874ac4775c13790867ba64ba10",
+    "address": "0x742d35Cc6634C0532925a3b8D0C0E1C4C5f7A8b2"
+  },
+  "testTokens": {
+    "WETH": "0x4200000000000000000000000000000000000006",
+    "USDC": "0xEea1BafFF6A3842ca8C9E86a82E7b26Fc81c8ECa"
+  },
+  "network": {
+    "name": "Unichain Sepolia",
+    "chainId": 1301,
+    "rpcUrl": "https://sepolia.rpc.unichain.org",
+    "explorer": "https://sepolia.uniscan.xyz"
+  }
+}

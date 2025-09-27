@@ -9,22 +9,23 @@ import {
 } from "@modelcontextprotocol/sdk/types.js";
 import { ethers } from "ethers";
 
-// Network configuration for Unichain Sepolia
+// Network configuration for Ethereum Sepolia (more reliable)
 const NETWORK_CONFIG = {
-  name: "Unichain Sepolia",
-  chainId: 1301,
-  rpcUrl: "https://sepolia.rpc.unichain.org",
+  name: "Ethereum Sepolia",
+  chainId: 11155111,
+  rpcUrl: "https://sepolia.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161", // Public Infura endpoint
   fallbackRpcUrls: [
-    "https://sepolia.rpc.unichain.org",
-    "https://rpc.unichain.org",
-    "https://sepolia.unichain.org"
+    "https://sepolia.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+    "https://rpc.sepolia.org",
+    "https://sepolia.gateway.tenderly.co"
   ],
-  explorer: "https://sepolia.uniscan.xyz",
+  explorer: "https://sepolia.etherscan.io",
   contracts: {
-    swapRouter: "0x94cC0AaC535CCDB3C01d6787D6413C739ae12bc4",
-    quoter: "0xc694a4cf10e2e4f77b49c35c5e6ea1b0fde6f6e8",
-    weth: "0x4200000000000000000000000000000000000006",
-    usdc: "0xEea1BafFF6A3842ca8C9E86a82E7b26Fc81c8ECa",
+    // Uniswap V3 contracts on Ethereum Sepolia
+    swapRouter: "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+    quoter: "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+    weth: "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14", // WETH on Sepolia
+    usdc: "0x1c7D4B196Cb0C7B01d743Fbc6116a25637902743", // USDC on Sepolia
   },
 };
 

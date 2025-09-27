@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "uniswap-sepolia": {
+      "command": "node",
+      "args": ["D:\\EthGlobal\\MCP with C\\build\\index.js"],
+      "env": {}
+    }
+  }
+}

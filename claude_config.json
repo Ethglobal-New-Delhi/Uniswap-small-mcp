@@ -2,7 +2,7 @@
   "mcpServers": {
     "uniswap-sepolia": {
       "command": "node",
-      "args": ["D:\\EthGlobal\\MCP with C\\build\\index_ethereum_sepolia.js"],
+      "args": ["C:\\Users\\lenovo\\OneDrive\\Documents\\Uniswap\\Uniswap-small-mcp\\build\\index_ethereum_sepolia.js"],
       "env": {}
     }
   }
